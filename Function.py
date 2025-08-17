@@ -1,5 +1,4 @@
 # Function to calculate the final price after a discount.
-# It takes the original price and discount percentage as arguments.
 def calculate_discount(price, discount_percent):
     """
     Calculates the final price after applying a discount.
@@ -44,3 +43,4 @@ if __name__ == "__main__":
     except ValueError:
         # Handle cases where the user enters non-numeric input.
         print("Invalid input. Please enter a valid number for price and discount.")
+        #enjoy running the programme
